@@ -13,8 +13,8 @@ const sum1 = new Function("x", "y", "console.log(x+y)");
 
 //cara 2 | standard function
 function sum2(x, y) {
-  if(x + y == 4) {
-     console.log('wowwww')
+  if (x + y == 4) {
+    console.log("wowwww");
   }
 }
 
@@ -29,14 +29,12 @@ sum3(3, 7);
 
 //contoh doang
 function randomize() {
-     const randomNumber = ~~(Math.random() * 1000)
-     if (randomNumber > 200) {
-          console.log(' woww lebih dari 200')
-     } else {
-          console.log(randomNumber)
-     }
+  const randomNumber = ~~(Math.random() * 1000);
+  if (randomNumber > 200) {
+    console.log(" woww lebih dari 200");
+  } else {
+    console.log(randomNumber);
+  }
 }
 
-randomize()
-
-
+randomize();

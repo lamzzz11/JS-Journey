@@ -19,7 +19,7 @@
 function hitungLuasLingkaran(jariJari) {
   return (22 / 7) * jariJari ** 2;
 }
-let r = 7
+let r = 7;
 console.log("Luas lingkaran: " + hitungLuasLingkaran(r));
 
 //luas segitiga
