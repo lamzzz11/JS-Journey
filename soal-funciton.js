@@ -40,6 +40,7 @@ let p = 10;
 let l = 4;
 console.log("Luas Persegi Panjang: " + hitungLuasPersegiPanjang(p, l));
 
+
 //luas jajar genjang
 function hitungLuasJajarGenjang(alas, tinggi) {
   return alas * tinggi;
@@ -60,3 +61,12 @@ const hitungGaji = (namaKaryawan, gajiHarian, jumlahHari) => {
 const dataBudi = hitungGaji("Budi", 60000, 30);
 console.log(`nama Karyawan: ${dataBudi.nama}`);
 console.log(`total gaji: Rp ${dataBudi.totalGaji.toLocaleString("id-ID")}`);
+
+
+//luas Persegi
+function hitungLuasPersegi(sisi) {
+  return sisi * sisi
+}
+let sisi = 9 
+
+console.log(hitungLuasPersegi(sisi))
